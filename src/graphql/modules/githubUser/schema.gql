@@ -1,0 +1,12 @@
+type GithubUser {
+  id: ID!
+  avatar_url: String!
+  company: String
+  login: String!
+  name: String!
+  bio: String
+}
+
+type Query {
+  githubUser: GithubUser!
+}
